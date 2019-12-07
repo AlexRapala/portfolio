@@ -1,0 +1,49 @@
+html,
+body, #root {
+  height: 100%;
+  margin: 0;
+  width: 100%;
+  background: radial-gradient(at 50% 100%, #873740 0%, #272730 40%, #171720 80%, #070710 100%);
+}
+
+canvas {
+  height: 100%;
+  margin: 0;
+  width: 100%;
+  background-color: transparent
+}
+
+.links a {
+  text-decoration: none;
+  color: #cc7b32;
+  font-weight: 800;
+}
+
+.links a:hover {
+  color: #fff;
+}
+
+.links span {
+  padding: 10px;
+}
+
+.links {
+  position: absolute;
+  top: 10px;
+  z-index: 1;
+  width: 100%;
+  text-align: right;
+}
+
+.intro {
+  position: absolute;
+  color: #cc7b32;
+  font-size: 35px;
+  font-weight: 800;
+  top: 35%;
+  z-index: 1;
+  text-shadow: 3px 0px saddlebrown;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+}
