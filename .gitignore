@@ -3,3 +3,4 @@
 .directory
 *py[cod]
 *__pycache__/
+static/

@@ -26,9 +26,11 @@ SECRET_KEY = os.environ['SECRET_KEY']
 AV_KEY = os.environ['AV_KEY']
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '45.63.79.120'
+]
 
 
 # Application definition

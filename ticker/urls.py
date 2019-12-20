@@ -4,9 +4,9 @@ from . import views as api_views
 from knox import views as knox_views
 
 router = routers.DefaultRouter()
-router.register('stocks', api_views.StockView, base_name="stocks")
-router.register('transactions', api_views.TransactionView, base_name="transaction")
-router.register('accounts', api_views.AccountsView, base_name="accounts")
+router.register('stocks', api_views.StockView, basename="stocks")
+router.register('transactions', api_views.TransactionView, basename="transaction")
+router.register('accounts', api_views.AccountsView, basename="accounts")
 
 urlpatterns = [
     path('me/', api_views.ManageUserView.as_view(), name="me"),
