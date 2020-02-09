@@ -29,7 +29,8 @@ AV_KEY = os.environ['AV_KEY']
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    '45.63.79.120'
+    '45.63.79.120',
+    'arapa.la'
 ]
 
 
