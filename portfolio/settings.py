@@ -30,7 +30,8 @@ DEBUG = False
 
 ALLOWED_HOSTS = [
     '45.63.79.120',
-    'arapa.la'
+    'arapa.la',
+    'localhost'
 ]
 
 
