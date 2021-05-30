@@ -86,7 +86,7 @@
   },
   "devDependencies": {
     "babel-preset-mobx": "^2.0.0",
-    "ws": "^7.1.1"
+    "ws": "^7.4.6"
   },
   "jest": {
     "collectCoverageFrom": [
